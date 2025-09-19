@@ -1,0 +1,11 @@
+DOM
+    It stands for Documnet Object Model, an interface for web Documnets that represents 
+their stricture as a tree like objwct, it allows dynamic manipulation of page content
+using javascript.
+
+DOM manipulation
+    It is the process of progamatically modifying the content, structure, or style of a web
+page's DOM using scripting languages like JavaScript.
+    Developers can add, remove, or modify elements, attributes, and text within the DOM 
+to create dynamic and interactive web applications. This allows web pages to respond to 
+user interactions, update content dynamically, and provide a more engaging user experience.
