@@ -9,3 +9,19 @@ page's DOM using scripting languages like JavaScript.
     Developers can add, remove, or modify elements, attributes, and text within the DOM 
 to create dynamic and interactive web applications. This allows web pages to respond to 
 user interactions, update content dynamically, and provide a more engaging user experience.
+
+==========================================================================================
+
+Event =     A event in JS is  an action or occurence that happen within a web page, such
+            as user's interaction ( clicking button ) or a page loading.
+EventHnadler =  A evet handler in JS is a function that responds to an event when it occurs.
+                It listens for specific evets and executes code to perform actions based
+                on those events creating interactive and dynamic application
+
+Differnt Types of Event
+    onchange
+    onclick
+    onmousehover
+    onmouseout
+    onkeydown
+    onload

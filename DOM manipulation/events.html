@@ -4,7 +4,7 @@ EventHnadler =  A evet handler in JS is a function that responds to an event whe
                 It listens for specific evets and executes code to perform actions based
                 on those events creating interactive and dynamic application -->
 
-<h1 id="h1">
+<!-- <h1 id="h1">
     Hello World
 </h1>
 
@@ -17,4 +17,22 @@ EventHnadler =  A evet handler in JS is a function that responds to an event whe
     function change(){
         hello.textContent = "Bye World";
     }
+</script> -->
+
+
+<input id="num1">
+<input id="num2">
+<button onclick="add()">Add</button>
+<p id="addition"></p>
+
+<script>
+    var num1 = document.getElementById("num1");
+    var num2 = document.getElementById("num2");
+    var addition = document.getElementById("addition");
+    function add(){
+        var box1num = Number(num1.value);
+        var box2num = Number(num2.value);
+        addition.textContent = box1num+box2num;
+    }
 </script>
+
