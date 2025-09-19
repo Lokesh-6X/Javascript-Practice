@@ -1,4 +1,4 @@
-# 🚀 JavaScript Practice Tracker
+# 🚀 JavaScript Progress Tracker
 
 This repo is where I keep all my **JavaScript practice code**.  
 Everything I learn, try out, or build while practicing JS goes here — basics, challenges, and small projects.  
@@ -13,7 +13,6 @@ The goal is simple: **commit consistently and track progress**.
 - Push commits to track growth.
 - Work on mini projects for hands-on learning.
 
----
 
 ## 📝 Notes
 
