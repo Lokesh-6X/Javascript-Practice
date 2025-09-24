@@ -1,5 +1,9 @@
 const express = require("express");
+const mongoose = require("mongoose");
 const app = express();
+
+connectDB();
+
 require("dotenv").config();
 
 const port = process.env.PORT || 3000;
@@ -19,6 +23,18 @@ app.get("/", (req,res) => {
 app.use((req, res) => {
     res.status(404).send("404 - Route Not Found");
 });
+
+const connectDB = async () => {
+    try{
+        const connect = await mongoose.connect(process.env.CONNECTION_STRING);
+        console.log(`Database Connection Sucessfull`);
+        console.log(`Host: ${connect.connection.host}`);
+        console.log(`Name: ${connect.connection.name}`);
+    }catch(err){
+        console.log(err);
+        process.exit(1);
+    }
+}
 
 app.listen(port, () => {
     console.log(`Server running at ${port}`);
