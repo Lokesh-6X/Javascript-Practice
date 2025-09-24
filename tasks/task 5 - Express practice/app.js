@@ -5,6 +5,9 @@ require("dotenv").config();
 const port = process.env.PORT || 3000;
 
 const userRoutes = require("./routes/userRoute");
+const logger = require("./middleware/logger");
+
+app.use(logger)
 
 app.use("/user", userRoutes);
 
